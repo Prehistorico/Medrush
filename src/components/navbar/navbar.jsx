@@ -16,12 +16,12 @@ export default function Navbar(){
 
             <div className="navbar_right">
                 
-                <a href="/">
-                    <span>Home</span>
-                </a>
-                <a href="/about">
-                    <span>About</span>
-                </a>
+                <Link to="/">
+                    Home
+                </Link>
+                <Link to="/about">
+                    About
+                </Link>
             </div>
 
         </section>
