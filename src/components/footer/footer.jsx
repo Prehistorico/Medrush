@@ -10,9 +10,9 @@ export default function Footer(){
         <section className="footer">
 
             <div className="footer_left">
-                <a href="/home">
+                <Link to="/">
                     <img src={logo}></img>
-                </a>
+                </Link>
             </div>
 
            <div className="footer_right">

@@ -9,19 +9,13 @@ export default function Navbar(){
         <section className="navbar">
 
             <div className="navbar_left">
-                <a href="/home">
-                    <img src={logo}></img>
-                </a>
+                <Link to="/"> Home </Link>
             </div>
 
             <div className="navbar_right">
                 
-                <Link to="/">
-                    Home
-                </Link>
-                <Link to="/about">
-                    About
-                </Link>
+                <Link to="/"> Home </Link>
+                <Link to="/about"> About </Link>
             </div>
 
         </section>
