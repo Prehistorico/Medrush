@@ -1,0 +1,115 @@
+.about{
+    width: 100%;
+    min-height: 100vh;
+    background: #efefef;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 5rem;
+    padding: 5rem 2rem;
+}
+
+.about_hero,
+.about_methodology{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    gap: 2rem;
+
+    max-width: 1000px;
+}
+
+.about_hero img{
+    width: 450px;
+}
+
+.about_hero h1,
+.about_methodology h2{
+    font-size: var(--title-size);;
+    font-weight: 700;
+}
+
+.about_hero p,
+.about_methodology p{
+    font-size: var(--text-size);
+    line-height: var(--text-line-height);
+    max-width: 900px;
+}
+
+.about_image img{
+    width: 100%;
+    max-width: 900px;
+
+    border-radius: 25px;
+}
+
+.about_objectives{
+    width: 100%;
+    max-width: 1100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 4rem;
+}
+
+.about_objectives_title{
+    flex: 1;
+}
+
+.about_objectives_title h2{
+    font-size: var(--title-size);;
+    font-weight: 700;
+}
+
+.about_objectives_text{
+    flex: 2;
+}
+
+.about_objectives_text p{
+    font-size: var(--text-size);
+    line-height: var(--text-line-height);
+}
+
+.about_methodology img{
+    width: 400px;
+}
+
+@media (max-width: 768px){
+
+    .about{
+        padding: 3rem 1.5rem;
+        gap: 3rem;
+    }
+
+    .about_hero img{
+        width: 260px;
+    }
+
+    .about_hero h1,
+    .about_methodology h2,
+    .about_objectives_title h2{
+        font-size: var(--title-size);
+        font-weight: 700;
+    }
+
+    .about_hero p,
+    .about_methodology p,
+    .about_objectives_text p{
+        font-size: 15px;
+    }
+
+    .about_objectives{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about_methodology img{
+        width: 250px;
+    }
+}
